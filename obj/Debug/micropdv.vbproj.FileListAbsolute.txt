@@ -13,3 +13,6 @@ C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.pdb
 C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.exe.config
 C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.Principal.resources
 C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.Produtos.resources
+C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.Funcionarios.resources
+C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.Clientes.resources
+C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.Vendas.resources

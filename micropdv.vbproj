@@ -156,6 +156,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionarios.resx">
+      <DependentUpon>Funcionarios.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Produtos.resx">
       <DependentUpon>Produtos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendas.resx">
+      <DependentUpon>Vendas.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +195,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pdv.ico" />
+    <None Include="Resources\reportButton.png" />
     <None Include="Resources\binButton.png" />
     <None Include="Resources\editButton.png" />
     <None Include="Resources\disketteButton.png" />

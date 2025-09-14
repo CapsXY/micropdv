@@ -73,7 +73,7 @@ Public Class Principal
             DataGridView.DataSource = dataTable
             FormatarDataGridView()
         Catch ex As Exception
-            MessageBox.Show("Erro ao Listar: " + ex.Message)
+            MessageBox.Show("Erro ao listar: " + ex.Message)
             Fechar()
         End Try
     End Sub
