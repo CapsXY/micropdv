@@ -5,8 +5,10 @@ Public Class Principal
     End Sub
     Private Sub Principal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LabelUsuarioNome.Text = usuarioNome
-        If (usuarioNome = "Admin") Then
+        If (usuarioNome = "micro") Then
             FuncionáriosToolStripMenuItem.Enabled = True
+        Else
+            FuncionáriosToolStripMenuItem.Enabled = False
         End If
         Listar()
         Totalizar()

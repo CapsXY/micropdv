@@ -1,103 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|c:\\users\\caioa\\documents\\github\\micropdv\\produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|c:\\users\\caioa\\documents\\github\\micropdv\\produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:produtos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|c:\\users\\caioa\\documents\\github\\micropdv\\principal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:principal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|c:\\users\\caioa\\documents\\github\\micropdv\\principal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:principal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|c:\\users\\caioa\\documents\\github\\micropdv\\vendas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:vendas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\micropdv\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 135,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Principal.vb",
-              "DocumentMoniker": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Principal.vb",
-              "RelativeDocumentMoniker": "Principal.vb",
-              "ToolTip": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Principal.vb",
-              "RelativeToolTip": "Principal.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-14T16:59:08.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Principal.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Principal.vb",
-              "RelativeDocumentMoniker": "Principal.vb",
-              "ToolTip": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Principal.vb [Design]",
-              "RelativeToolTip": "Principal.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-14T16:59:01.061Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produtos.vb",
-              "DocumentMoniker": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Produtos.vb",
-              "RelativeDocumentMoniker": "Produtos.vb",
-              "ToolTip": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Produtos.vb",
-              "RelativeToolTip": "Produtos.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-14T16:53:20.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Produtos.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Produtos.vb",
-              "RelativeDocumentMoniker": "Produtos.vb",
-              "ToolTip": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Produtos.vb [Design]",
-              "RelativeToolTip": "Produtos.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-14T16:53:18.115Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vendas.vb",
-              "DocumentMoniker": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Vendas.vb",
-              "RelativeDocumentMoniker": "Vendas.vb",
-              "ToolTip": "C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\Vendas.vb",
-              "RelativeToolTip": "Vendas.vb",
-              "ViewState": "AgIAACYBAAAAAAAAAAAAAH0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-14T16:53:09.196Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

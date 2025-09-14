@@ -220,7 +220,7 @@ Partial Class Principal
         Me.GroupBoxTotalVenda.Size = New System.Drawing.Size(322, 60)
         Me.GroupBoxTotalVenda.TabIndex = 0
         Me.GroupBoxTotalVenda.TabStop = False
-        Me.GroupBoxTotalVenda.Text = "Total vendido"
+        Me.GroupBoxTotalVenda.Text = "Total de venda diária"
         '
         'LabelRS
         '

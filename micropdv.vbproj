@@ -82,6 +82,11 @@
     <Compile Include="Clientes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DataSetVendas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetVendas.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Funcionarios.Designer.vb">
       <DependentUpon>Funcionarios.vb</DependentUpon>
     </Compile>
@@ -136,18 +141,6 @@
     <Compile Include="Relatorios\RelatorioComprovante.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Relatorios\RelatorioProduto.Designer.vb">
-      <DependentUpon>RelatorioProduto.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Relatorios\RelatorioProduto.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Relatorios\RelatorioVenda.Designer.vb">
-      <DependentUpon>RelatorioVenda.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Relatorios\RelatorioVenda.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Vendas.Designer.vb">
       <DependentUpon>Vendas.vb</DependentUpon>
     </Compile>
@@ -161,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Funcionarios.resx">
       <DependentUpon>Funcionarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListasVendas.resx">
+      <DependentUpon>ListasVendas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -177,11 +173,25 @@
     <EmbeddedResource Include="Produtos.resx">
       <DependentUpon>Produtos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\RelatorioComprovante.rdlc" />
+    <EmbeddedResource Include="Relatorios\RelatorioProdutos.rdlc" />
+    <EmbeddedResource Include="Relatorios\RelatorioVenda.rdlc" />
     <EmbeddedResource Include="Vendas.resx">
       <DependentUpon>Vendas.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="DataSetVendas.xsc">
+      <DependentUpon>DataSetVendas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetVendas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetVendas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetVendas.xss">
+      <DependentUpon>DataSetVendas.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

@@ -19,7 +19,7 @@ Public Class Vendas
         Dim dataAdapter As SqlDataAdapter
         Try
             Abrir()
-            dataAdapter = New SqlDataAdapter("SELECT ven.id_vendas, ven.num_vendas, pro.nome, cli.nome, pro.valor, ven.quantidade, ven.valor, ven.funcionario, ven.data_venda, ven.id_produto, ven.id_cliente FROM vendas as ven INNER JOIN produtos as pro on ven.id_produto = pro.id_produto INNER JOIN clientes as cli on ven.id_cliente = cli.id_cliente order by num_vendas desc", conectaDB)
+            dataAdapter = New SqlDataAdapter("SELECT ven.id_vendas, ven.num_vendas, pro.nome, cli.nome, pro.valor, ven.quantidade, ven.valor, ven.funcionario, ven.data_venda, ven.id_produto, ven.id_cliente FROM vendas as ven INNER JOIN produtos AS pro ON ven.id_produto = pro.id_produto INNER JOIN clientes as cli on ven.id_cliente = cli.id_cliente ORDER BY num_vendas desc", conectaDB)
             dataAdapter.Fill(dataTable)
             DataGridView.DataSource = dataTable
             FormatarDataGridView()
