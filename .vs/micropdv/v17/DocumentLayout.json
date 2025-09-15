@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:vendas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|c:\\users\\caioa\\documents\\github\\micropdv\\listasvendas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|C:\\Users\\CaioA\\Documents\\GitHub\\micropdv\\listasvendas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{69DB6072-0393-4710-B9AE-2E15E239DA55}|micropdv.vbproj|solutionrelative:listasvendas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "ListasVendas.vb",
               "ViewState": "AgIAADcAAAAAAAAAAAAmwFEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-15T03:50:36.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T03:50:36.126Z"
             }
           ]
         }
