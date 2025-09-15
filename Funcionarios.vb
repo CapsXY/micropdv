@@ -27,7 +27,6 @@ Public Class Funcionarios
     End Sub
     Private Sub FormatarDataGridView()
         DataGridView.Columns(0).Visible = False
-        DataGridView.Columns(3).Visible = False
         DataGridView.Columns(1).HeaderText = "Nome"
         DataGridView.Columns(2).HeaderText = "Sexo"
         DataGridView.Columns(3).HeaderText = "CPF"
@@ -35,7 +34,15 @@ Public Class Funcionarios
         DataGridView.Columns(5).HeaderText = "Telefone"
         DataGridView.Columns(6).HeaderText = "Email"
         DataGridView.Columns(7).HeaderText = "Turno"
-        DataGridView.Columns(8).HeaderText = "Data Contratação"
+        DataGridView.Columns(8).HeaderText = "Data de contratação"
+        DataGridView.Columns(1).Width = 100
+        DataGridView.Columns(2).Width = 100
+        DataGridView.Columns(3).Width = 100
+        DataGridView.Columns(4).Width = 100
+        DataGridView.Columns(5).Width = 100
+        DataGridView.Columns(6).Width = 100
+        DataGridView.Columns(7).Width = 100
+        DataGridView.Columns(8).Width = 100
     End Sub
     Private Sub DesabilitarCampos()
         TextBoxNome.Enabled = False

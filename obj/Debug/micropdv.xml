@@ -87,5 +87,10 @@ micropdv
   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="T:micropdv.DataSetVendas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
 </members>
 </doc>

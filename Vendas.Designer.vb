@@ -268,20 +268,20 @@ Partial Class Vendas
         'LabelTotalProdutos
         '
         Me.LabelTotalProdutos.AutoSize = True
-        Me.LabelTotalProdutos.Location = New System.Drawing.Point(552, 409)
+        Me.LabelTotalProdutos.Location = New System.Drawing.Point(543, 409)
         Me.LabelTotalProdutos.Name = "LabelTotalProdutos"
-        Me.LabelTotalProdutos.Size = New System.Drawing.Size(87, 13)
+        Me.LabelTotalProdutos.Size = New System.Drawing.Size(75, 13)
         Me.LabelTotalProdutos.TabIndex = 0
-        Me.LabelTotalProdutos.Text = "Total de vendas:"
+        Me.LabelTotalProdutos.Text = "Total vendido:"
         '
         'LabelTotal
         '
         Me.LabelTotal.AutoSize = True
-        Me.LabelTotal.Location = New System.Drawing.Point(645, 409)
+        Me.LabelTotal.Location = New System.Drawing.Point(624, 409)
         Me.LabelTotal.Name = "LabelTotal"
-        Me.LabelTotal.Size = New System.Drawing.Size(25, 13)
+        Me.LabelTotal.Size = New System.Drawing.Size(46, 13)
         Me.LabelTotal.TabIndex = 0
-        Me.LabelTotal.Text = "999"
+        Me.LabelTotal.Text = "9999,99"
         '
         'ButtonRelatorio
         '
@@ -304,6 +304,7 @@ Partial Class Vendas
         Me.LabelID.Size = New System.Drawing.Size(18, 13)
         Me.LabelID.TabIndex = 0
         Me.LabelID.Text = "ID"
+        Me.LabelID.Visible = False
         '
         'Vendas
         '

@@ -35,3 +35,4 @@ C:\Users\Lenovo\Documents\GitHub\micropdv\obj\Debug\micropdv.exe
 C:\Users\Lenovo\Documents\GitHub\micropdv\obj\Debug\micropdv.xml
 C:\Users\Lenovo\Documents\GitHub\micropdv\obj\Debug\micropdv.pdb
 C:\Users\Lenovo\Documents\GitHub\micropdv\obj\Debug\micropdv.ListasVendas.resources
+C:\Users\CaioA\Documents\GitHub\micropdv\obj\Debug\micropdv.ListasVendas.resources

@@ -10,13 +10,13 @@ Public Class Clientes
         RadioButtonNome.Checked = True
     End Sub
     Private Sub Listar()
-        Dim dt As New DataTable
-        Dim da As SqlDataAdapter
+        Dim dataTable As New DataTable
+        Dim dataAdapter As SqlDataAdapter
         Try
             Abrir()
-            da = New SqlDataAdapter("SELECT * FROM clientes", conectaDB)
-            da.Fill(dt)
-            DataGridView.DataSource = dt
+            dataAdapter = New SqlDataAdapter("SELECT * FROM clientes", conectaDB)
+            dataAdapter.Fill(dataTable)
+            DataGridView.DataSource = dataTable
             ContarLinhas()
             FormatarDataGridView()
         Catch ex As Exception
@@ -26,13 +26,19 @@ Public Class Clientes
     End Sub
     Private Sub FormatarDataGridView()
         DataGridView.Columns(0).Visible = False
-        DataGridView.Columns(3).Visible = False
         DataGridView.Columns(1).HeaderText = "Nome"
         DataGridView.Columns(2).HeaderText = "Sexo"
         DataGridView.Columns(3).HeaderText = "CPF"
         DataGridView.Columns(4).HeaderText = "Endereço"
         DataGridView.Columns(5).HeaderText = "Telefone"
         DataGridView.Columns(6).HeaderText = "Email"
+        DataGridView.Columns(7).HeaderText = "Data de cadastro"
+        DataGridView.Columns(1).Width = 100
+        DataGridView.Columns(2).Width = 100
+        DataGridView.Columns(3).Width = 100
+        DataGridView.Columns(4).Width = 100
+        DataGridView.Columns(5).Width = 100
+        DataGridView.Columns(6).Width = 100
     End Sub
     Private Sub DesabilitarCampos()
         TextBoxNome.Enabled = False

@@ -38,12 +38,12 @@ Public Class Principal
         form.ShowDialog()
     End Sub
     Private Sub ProdutosToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ProdutosToolStripMenuItem1.Click
-        Dim form = New RelatorioProduto
-        form.ShowDialog()
+        'Dim form = New RelatorioProduto
+        'Form.ShowDialog()
     End Sub
     Private Sub VendasToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles VendasToolStripMenuItem1.Click
-        Dim form = New RelatorioVenda
-        form.ShowDialog()
+        'Dim form = New RelatorioVenda
+        'Form.ShowDialog()
     End Sub
     Private Sub SairToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles SairToolStripMenuItem1.Click
         Application.Exit()
@@ -52,14 +52,22 @@ Public Class Principal
         DataGridView.Columns(0).Visible = False
         DataGridView.Columns(9).Visible = False
         DataGridView.Columns(10).Visible = False
-        DataGridView.Columns(1).HeaderText = "Nº Venda"
+        DataGridView.Columns(1).HeaderText = "Nº da venda"
         DataGridView.Columns(2).HeaderText = "Produto"
         DataGridView.Columns(3).HeaderText = "Cliente"
         DataGridView.Columns(4).HeaderText = "Valor unit."
         DataGridView.Columns(5).HeaderText = "Qtd."
         DataGridView.Columns(6).HeaderText = "Valor total"
         DataGridView.Columns(7).HeaderText = "Funcionário"
-        DataGridView.Columns(8).HeaderText = "Data venda"
+        DataGridView.Columns(8).HeaderText = "Data da venda"
+        DataGridView.Columns(1).Width = 100
+        DataGridView.Columns(2).Width = 100
+        DataGridView.Columns(3).Width = 100
+        DataGridView.Columns(4).Width = 100
+        DataGridView.Columns(5).Width = 100
+        DataGridView.Columns(6).Width = 100
+        DataGridView.Columns(7).Width = 100
+        DataGridView.Columns(8).Width = 100
     End Sub
     Private Sub Listar()
         Dim dataTable As New DataTable

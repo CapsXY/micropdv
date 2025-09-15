@@ -36,6 +36,11 @@ Public Class Produtos
         DataGridView.Columns(3).HeaderText = "Quantidade"
         DataGridView.Columns(4).HeaderText = "Valor"
         DataGridView.Columns(5).HeaderText = "Data de Cadastro"
+        DataGridView.Columns(1).Width = 100
+        DataGridView.Columns(2).Width = 100
+        DataGridView.Columns(3).Width = 100
+        DataGridView.Columns(4).Width = 100
+        DataGridView.Columns(5).Width = 100
     End Sub
     Private Sub DesabilitarCampos()
         TextBoxNome.Enabled = False

@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Module ConexaoDB
-    Public conectaDB As New SqlConnection("Server=.\PDVNET; DataBase=SistemaVB; User Id=sa; Password=inter#system")
+    Public conectaDB As New SqlConnection("Server=.\PDVNET; DataBase=MicroPDV; User Id=sa; Password=inter#system")
     Sub Abrir()
         If conectaDB.State = 0 Then
             conectaDB.Open()

@@ -39,7 +39,7 @@ Partial Class Login
         '
         Me.TextBoxUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBoxUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxUsuario.Location = New System.Drawing.Point(76, 171)
+        Me.TextBoxUsuario.Location = New System.Drawing.Point(78, 171)
         Me.TextBoxUsuario.Name = "TextBoxUsuario"
         Me.TextBoxUsuario.Size = New System.Drawing.Size(216, 22)
         Me.TextBoxUsuario.TabIndex = 1
@@ -60,7 +60,7 @@ Partial Class Login
         '
         Me.MaskedTextBoxSenha.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.MaskedTextBoxSenha.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaskedTextBoxSenha.Location = New System.Drawing.Point(76, 209)
+        Me.MaskedTextBoxSenha.Location = New System.Drawing.Point(78, 209)
         Me.MaskedTextBoxSenha.Mask = "000\.000\.000-00"
         Me.MaskedTextBoxSenha.Name = "MaskedTextBoxSenha"
         Me.MaskedTextBoxSenha.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -108,7 +108,7 @@ Partial Class Login
         Me.ButtonConectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonConectar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonConectar.ForeColor = System.Drawing.SystemColors.Control
-        Me.ButtonConectar.Location = New System.Drawing.Point(139, 245)
+        Me.ButtonConectar.Location = New System.Drawing.Point(131, 254)
         Me.ButtonConectar.Name = "ButtonConectar"
         Me.ButtonConectar.Size = New System.Drawing.Size(100, 40)
         Me.ButtonConectar.TabIndex = 3

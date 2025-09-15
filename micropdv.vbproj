@@ -48,7 +48,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>pdv.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\pdv.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,7 +82,7 @@
     <Compile Include="Clientes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataSetVendas.Designer.vb">
+    <Compile Include="DataSets\DataSetVendas.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetVendas.xsd</DependentUpon>
@@ -135,12 +135,6 @@
     <Compile Include="Produtos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Relatorios\RelatorioComprovante.Designer.vb">
-      <DependentUpon>RelatorioComprovante.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Relatorios\RelatorioComprovante.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Vendas.Designer.vb">
       <DependentUpon>Vendas.vb</DependentUpon>
     </Compile>
@@ -173,23 +167,20 @@
     <EmbeddedResource Include="Produtos.resx">
       <DependentUpon>Produtos.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Relatorios\RelatorioComprovante.rdlc" />
-    <EmbeddedResource Include="Relatorios\RelatorioProdutos.rdlc" />
-    <EmbeddedResource Include="Relatorios\RelatorioVenda.rdlc" />
     <EmbeddedResource Include="Vendas.resx">
       <DependentUpon>Vendas.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="DataSetVendas.xsc">
+    <None Include="DataSets\DataSetVendas.xsc">
       <DependentUpon>DataSetVendas.xsd</DependentUpon>
     </None>
-    <None Include="DataSetVendas.xsd">
+    <None Include="DataSets\DataSetVendas.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DataSetVendas.Designer.vb</LastGenOutput>
     </None>
-    <None Include="DataSetVendas.xss">
+    <None Include="DataSets\DataSetVendas.xss">
       <DependentUpon>DataSetVendas.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
@@ -204,7 +195,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pdv.ico" />
+    <Content Include="Resources\pdv.ico" />
     <None Include="Resources\reportButton.png" />
     <None Include="Resources\binButton.png" />
     <None Include="Resources\editButton.png" />
@@ -219,6 +210,8 @@
     <None Include="Resources\background.png" />
     <None Include="Resources\pdv.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Relatorios\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
