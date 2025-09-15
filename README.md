@@ -2,13 +2,11 @@
 # Micro PDV
 
 Um simples PDV feito em Visual Basic.
-
-
 ![Logo](https://github.com/CapsXY/micropdv/blob/main/Resources/pdv.png?raw=true)
 
-
 ## Screenshots 
-Tela de login: 
+
+### Tela de login: 
 ![Login](https://github.com/CapsXY/micropdv/blob/main/Screenshots/01%20-%20Login.png?raw=true)
 
 ### Menu principal:
